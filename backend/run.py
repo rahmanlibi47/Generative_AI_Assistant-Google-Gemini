@@ -1,7 +1,8 @@
 import google.generativeai as genai
-import os 
+from dotenv import load_dotenv, dotenv_values
+load_dotenv()
 
-API_KEY='your_api_key'
+API_KEY = dotenv_values().get('API_KEY')
 
 genai.configure(api_key=API_KEY)
 

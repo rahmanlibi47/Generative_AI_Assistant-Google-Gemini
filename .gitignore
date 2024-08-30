@@ -1,3 +1,7 @@
+#ignore cache, virtual env and package installations
 venv/
 node_modules/
 __pycache__/
+
+#ignore env files
+.env
