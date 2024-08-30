@@ -8,7 +8,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-load_dotenv()
+load_dotenv() #
 
 API_KEY = dotenv_values().get('API_KEY')
 
